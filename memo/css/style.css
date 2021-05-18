@@ -1,0 +1,174 @@
+/* 初期化 */
+* { margin: 0; padding: 0; }
+
+/* ボタン共通 */
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(214, 247, 237);
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(55, 177, 140);
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+.tittle{
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.sub_tittle{
+    color: rgb(104, 100, 100);
+}
+
+/* タイトル */
+header{
+    background-color: rgb(55, 177, 140);
+    margin: 0 0 70px 0;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* webカメラ関連 */
+#sec1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.erea_camera, .erea_photo{
+    width: calc( 100% / 2 - 80px);
+    height: calc(100% / 2);
+    margin: 10px;
+}
+
+.erea_camera{
+    background-color: rgb(255, 255, 255);
+    border: inset 10px rgb(5, 124, 88);
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+#sec1 p{
+    padding: 5px;
+}
+
+#video{
+    width: 320px;
+    height: 180px;
+    border: 1px solid gray;
+    background-color: rgb(27, 25, 25);
+    border-radius: 20px;
+}
+
+.erea_camera .btn{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+.erea_photo{
+    background-color: rgb(255, 255, 255);
+    border: inset 10px rgb(5, 124, 88);
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+#canvas{
+    width: 320px;
+    height: 180px;
+    border: 1px solid gray;
+    background-color: rgb(27, 25, 25);
+}
+
+.input_wrap{
+    margin: 0 0 3px 0;
+}
+
+input {
+    margin: 10px 3%;
+    width: 95%;
+    height: 40px;
+    font-size: 80%;
+}
+
+#save{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+/* 保存画像関連 */
+#sec2{
+    width: 100%;
+}
+
+#sec2 p{
+    padding: 5px;
+}
+
+.select_erea{
+    margin: 70px;
+    background-color: rgb(255, 255, 255);
+    border: inset 10px rgb(5, 124, 88);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#select_canvas{
+    width: 320px;
+    height: 180px;
+    border: 1px solid gray;
+    background-color: rgb(27, 25, 25);
+}
+
+.select_wrap p, input{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.btn_list li{
+    margin: 10px;
+    width: calc( 100% / 3 - 60px );
+    line-height:60px;
+}
+
+table{
+    width: calc( 100% / 1.5 );
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+th{
+    width: 30%;
+    background-color: #d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+
+tr{
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
